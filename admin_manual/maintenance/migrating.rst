@@ -51,7 +51,7 @@ the new location. It is also assumed that the authentication method
 #.  Copy all files from your ownCloud instance, the ownCloud program files, the
     data files, the log files and the configuration files, to the new
     machine (See :doc:`backup` and :doc:`restore`). The data files should keep
-    their original timestamp (can be done by using ``rsync`` with ``-t`` option)
+    their original timestamp (can be done by using ``rsync`` with ``-t`` or ``-a`` options)
     otherwise the clients will re-download all the files after the migration.
     Depending on the original installation method and the OS the files are
     located in different locations. On the new system make sure to pick the
